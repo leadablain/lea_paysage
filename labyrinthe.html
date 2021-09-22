@@ -1,0 +1,88 @@
+<html>
+
+<head>
+  <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+</head>
+
+<body>
+  <a-scene>
+    
+
+    <a-assets>
+      <img id="texture" src="tapichi.jpg">
+   
+
+ 
+      <img id="texturevase" src="vase.jpg">
+
+
+   
+      <img id="texturenotexit" src="not exit.jpg">
+   
+
+    
+      <img id="texturetapis" src="tapisserie.jpg">
+   
+
+      <img id="texturefleche" src="fleche2.jpg">
+    </a-assets>
+
+
+
+    <a-plane src="#texture" position="0 0 -4" rotation="-90 0 0" width="3" height="3" color="#758CF5">
+    </a-plane>
+
+    <a-box src="#texture" width="3" height="3" depth="0.05" position="0 1.5 -2.5" rotation="0 0 0" color="#C1E1F2">
+    </a-box>
+
+    <a-box src="#texture" width="3" height="3" depth="0.05" position="1.5 1.5 -4" rotation="0 90 0" color="#C1E1F2">
+    </a-box>
+
+
+
+    <a-box src="#texture" width="1.5" height="3" depth="0.05" position="0 1.5 -4" rotation="0 0 0" color="#C1E1F2">
+    </a-box>
+
+    <a-box src="#texture" width="1.5" height="3" depth="0.05" position="-1.48 1.5 -3.25" rotation="0 90 0"
+      color="#C1E1F2">
+    </a-box>
+
+    <a-box src="#texturetapis" width="0.5" height="3" depth="0.05" position="-1.48 1.5 -5.25" rotation="0 90 0"
+      color="#C1E1F2">
+    </a-box>
+
+    <a-box src="#texture" width="1.5" height="3" depth="0.05" position="0.7 1.5 -4.75" rotation="0 90 0"
+      color="#C1E1F2">
+    </a-box>
+
+    <a-box src="#texturetapis" width="0.7" height="3" depth="0.05" position="-0.73 1.5 -4.33" rotation="0 90 0"
+      color="#C1E1F2">
+    </a-box>
+
+    <a-box src="#texturenotexit" width="0.62" height="0.3" depth="0.02" position="-0 1.7 -4.07" rotation="0 0 0"
+      color="#BFDFFF">
+    </a-box>
+
+    <a-box src="#texture" width="2.2" height="3" depth="0.05" position="-0.4 1.5 -5.5" rotation="0 0 0" color="#C1E1F2">
+    </a-box>
+
+    <a-sphere src="#texturevase" position="0 2.4 -3.25" radius="0.28">
+    </a-sphere>
+
+    <a-sphere src="#texturevase" position="0.9 2.4 -3.25" radius="0.28">
+    </a-sphere>
+
+    <a-sphere src="#texturevase" position="-0.9 2.4 -3.25" radius="0.28">
+    </a-sphere>
+
+    <a-box src="#texturefleche" width="0.6" height="0.45" depth="0.05" position="0 1.5 -2.48" rotation="0 0 0" color="#C1E1F2">
+    </a-box>
+
+    <a-sky color="#6D39FA"></a-sky>
+
+  </a-entity>
+
+  </a-scene>
+</body>
+
+</html>
