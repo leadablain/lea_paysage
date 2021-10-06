@@ -5,4 +5,4 @@
 * [labyrinthe](https://leadablain.github.io/lea_paysage/labyrinthe.html)
 * [suzi](https://leadablain.github.io/lea_paysage/suzi.html)
 * [labyrinthe_lumiere](https://leadablain.github.io/lea_paysage/testlum.html)
-* [labyrinthe_dedans](https://leadablain.github.io/lea_paysage/labyrinthededans.html)
+* [labyrinthe_proche](https://leadablain.github.io/lea_paysage/labyrinthededans.html)
